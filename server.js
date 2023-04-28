@@ -23,6 +23,6 @@ async function generateDirectDownloadLink(fileId) {
 }
 
 // Usage example
-generateDirectDownloadLink('14bVqz0FpiF5LPiYFtvlC6lwchQaeJDnt')
+generateDirectDownloadLink('your-file-id-which-you-want-to-install')
   .then(link => console.log(link))
   .catch(err => console.error(err));
